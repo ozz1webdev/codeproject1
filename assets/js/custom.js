@@ -5,6 +5,6 @@ function homeAnim() {
 
     container.classList.remove('containerFinal');
     container.classList.remove('containerStart');
-    container.classList.add('containerFinal');
+    container.classList.add('containerFinal'); 
 
 }
