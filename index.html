@@ -11,27 +11,26 @@
 
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="assets/js/custom.js"></script>
 </head>
 <body>
-    <nav class="glassNav">
+    <nav>
         <ul>
-            <li><button class="btn"><i class="fa fa-home"></i> Home</button></li>
-            <li><button class="btn"><i class="fa fa-about"></i> About</button></li>
+            <li><button class="btn"><i class="fa fa-home" onClick="homeAnim()"></i> Home</button></li>
+            <li><button class="btn"><i class="fa fa-male"></i> About</button></li>
             <li><button class="btn"><i class="fa fa-comments"></i> Contact</button></li>
         </ul>
     </nav>
     <section id="mainPage">
-        <div class="">
+        <div id="container" class="containerStart glass">
             <h1>Main Page</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Alias autem, cumque cupiditate doloribus enim eveniet ipsum labore laboriosam
+                omnis provident quam qui, quo similique suscipit temporibus veritatis voluptas,
+                voluptates? Ea.
+            </p>
         </div>
     </section>
-    <section id="aboutPage">
-        <h1>About Page</h1>
-    </section>
-    <section id="contactPage">
-        <h1>Contact Page</h1>
-    </section>
-
     <footer class="glass">
         <div class="footerText center">
             <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Vasilios Gouliaveras All Rights Reserved</p>
@@ -41,6 +40,7 @@
             <img src="assets/images/twitter.gif" alt="twitter">
             <img src="assets/images/instagram.gif" alt="instagram">
         </div>
+
     </footer>
 </body>
 
