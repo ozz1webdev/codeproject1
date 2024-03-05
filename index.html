@@ -16,8 +16,8 @@
 <body>
     <nav>
         <ul>
-            <li><button class="btn"><i class="fa fa-home" onClick="homeAnim()"></i> Home</button></li>
-            <li><button class="btn"><i class="fa fa-male"></i> About</button></li>
+            <li><button class="btn" onClick=homeAnim()><i class="fa fa-home" ></i> Home</button></li>
+            <li><button class="btn" onClick=aboutAnim()><i class="fa fa-male"></i> About</button></li>
             <li><button class="btn"><i class="fa fa-comments"></i> Contact</button></li>
         </ul>
     </nav>
@@ -30,15 +30,24 @@
                 voluptates? Ea.
             </p>
         </div>
+        <div id="aboutContainer" class="aboutContainerStart glass">
+            <h1>About Page</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Alias autem, cumque cupiditate doloribus enim eveniet ipsum labore laboriosam
+                omnis provident quam qui, quo similique suscipit temporibus veritatis voluptas,
+                voluptates? Ea.
+            </p>
+        </div>
+
     </section>
     <footer class="glass">
         <div class="footerText center">
             <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Vasilios Gouliaveras All Rights Reserved</p>
         </div>
         <div class="icons">
-            <img src="assets/images/facebook.gif" alt="facebook">
-            <img src="assets/images/twitter.gif" alt="twitter">
-            <img src="assets/images/instagram.gif" alt="instagram">
+            <a href="https://www.facebook.com" target="_blank"><img src="assets/images/facebook.gif" alt="facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="assets/images/twitter.gif" alt="twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="assets/images/instagram.gif" alt="instagram"></a>
         </div>
 
     </footer>
