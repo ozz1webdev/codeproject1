@@ -114,16 +114,38 @@ nav li {
 }
 .card1  {
     width:250px;
-    height:450px;
+    height:250px;
     margin-left:45%;
     margin-top:5%;
-
+    transition: all 5s ease;
     transform-style: preserve-3d;
     transform: 
         perspective(1000px)
         rotateY(var(--rotateY))
         rotateX(var(--rotateX));
-
+        -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.card1:hover {
+    transform: rotateY(180deg);
+}
+.card1Front {
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: #658da8;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.card1Back {
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: #658da8;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.tanslateZ{
+    transform: translateZ(200px);
 }
 /********************************** About Page ************************************/
 .aboutContainerStart {
