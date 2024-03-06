@@ -19,6 +19,11 @@ function aboutAnim(){
     container.classList.remove('containerFinal');
     container.classList.remove('containerStart');
 
+    aboutContainer.classList.remove('aboutContainerClear');
+    aboutContaner.classList.remove('aboutContainerFinal');
+    aboutContaner.classList.remove('aboutContainerStart');
+
+
     container.classList.add('containerClear');
     aboutContainer.classList.add('aboutContainerStart');
     
