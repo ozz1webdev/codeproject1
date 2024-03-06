@@ -169,11 +169,11 @@ nav li {
         height:5%;
     }
     100%{
-        position:relative;
-        margin-left:2%;
-        margin-top:7%;
-        width:100%;
-        height:100%;
+        position:absolute;
+        left:2%;
+        top:15%;
+        width:95%;
+        height:70%;
     }
 }
 .aboutContainerClear {
@@ -182,17 +182,17 @@ nav li {
     overflow:hidden;
     animation: 1.5s ease-in aboutContainerClear forwards;
 }
-@keyframe aboutContaiderClear {
+@keyframes aboutContaiderClear {
     0% {
         margin-left:2%;
         margin-top:5%;
-        width:100%;
-        height:100%;
+        width:95%;
+        height:70%;
     }
-    50 {
+    50% {
 
     }
-    100{
+    100%{
 
         width:0px;
         height:0px;

@@ -8,7 +8,11 @@ function homeAnim() {
     container.classList.remove('containerClear');
     container.classList.remove('containerFinal');
     container.classList.remove('containerStart');
+    aboutContainer.classList.remove('aboutContainerClear');
+    aboutContainer.classList.remove('aboutContainerFinal');
+    aboutContainer.classList.remove('aboutContainerStart');
 
+    aboutContainer.classList.add('aboutContainerClear');
     container.classList.add('containerStart');
 }
 function aboutAnim(){
