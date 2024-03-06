@@ -20,8 +20,8 @@ function aboutAnim(){
     container.classList.remove('containerStart');
 
     aboutContainer.classList.remove('aboutContainerClear');
-    aboutContaner.classList.remove('aboutContainerFinal');
-    aboutContaner.classList.remove('aboutContainerStart');
+    aboutContainer.classList.remove('aboutContainerFinal');
+    aboutContainer.classList.remove('aboutContainerStart');
 
 
     container.classList.add('containerClear');
