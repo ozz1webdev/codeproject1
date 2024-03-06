@@ -20,6 +20,6 @@ function aboutAnim(){
     container.classList.remove('containerStart');
 
     container.classList.add('containerClear');
-    aboutContainer.classList.add('');
+    aboutContainer.classList.add('aboutContainerStart');
     
 }
