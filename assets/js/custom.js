@@ -1,37 +1,34 @@
-let container = document.getElementById('container');
-let aboutContainer = document.getElementById('aboutContainer');
-
+function startpage() {
+    var bodyp = document.getElementById('homepage');
+    
+    bodyp.style.height = "80vh"
+}
 function homeBtn() {
-    let container = document.getElementById('container');
-    let aboutContainer = document.getElementById('aboutContainer');
-
-    container.classList.remove('containerClear');
-    container.classList.remove('containerVisible');
-    container.classList.remove('containerStart');
-    aboutContainer.classList.remove('aboutContainerClear');
-    aboutContainer.classList.remove('aboutContainerFinal');
-    aboutContainer.classList.remove('aboutContainerStart');
-
-    aboutContainer.classList.add('aboutContainerClear');
-    container.classList.add('containerVisible');
+    var homepage = document.getElementById('homepage');
+    var aboutpage = document.getElementById('aboutpage');
+    var contactpage=document.getElementById('contactpage');
+    
+    homepage.style.height = "80vh"
+    contactpage.style.height = "0vh"
+    aboutpage.style.height = "0vh"
 }
 function aboutBtn(){
-    let container = document.getElementById('container');
-    let aboutContainer = document.getElementById('aboutContainer');
-
-    container.classList.remove('containerClear');
-    container.classList.remove('containerFinal');
-    container.classList.remove('containerStart');
-
-    aboutContainer.classList.remove('aboutContainerClear');
-    aboutContainer.classList.remove('aboutContainerFinal');
-    aboutContainer.classList.remove('aboutContainerStart');
-
-
-    container.classList.add('containerClear');
-    aboutContainer.classList.add('aboutContainerStart');
+    var homepage = document.getElementById('homepage');
+    var aboutpage = document.getElementById('aboutpage');
+    var contactpage=document.getElementById('contactpage');
     
+    homepage.style.height = "0vh"
+    contactpage.style.height = "0vh"
+    aboutpage.style.height = "80vh"
+
 }
 function contactBtn () {
+    var homepage = document.getElementById('homepage');
+    var aboutpage = document.getElementById('aboutpage');
+    var contactpage=document.getElementById('contactpage');
+    
+    homepage.style.height = "0vh"
+    contactpage.style.height = "80vh"
+    aboutpage.style.height = "0vh"
     
 }
