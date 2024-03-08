@@ -26,7 +26,7 @@ nav  ul {
     gap:30px;
 }
 nav li {
-    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.4));
 }
 
 .btn {
@@ -44,6 +44,9 @@ nav li {
     background-color: #164764;
     padding-left:30px;
     padding-right:30px;
+}
+svg {
+    position: absolute;
 }
 /********************************** Main Section ************************************/
 .homeSection {
@@ -64,9 +67,11 @@ nav li {
 	position:relative;
 	width: 250px;
 	height:320px;
-    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    /*-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));*/
 }
+.cardcontainer:after {
 
+}
 .theCard {
 	position:absolute;
 	width:100%;
@@ -98,7 +103,7 @@ nav li {
 	color:#333;
 	transform-style:preserve-3d;
 	transform:rotateY(180deg);
-    overflow: auto;
+    
 }
 .transZ {
 	transform:translateZ(50px);
@@ -116,6 +121,48 @@ nav li {
     overflow: hidden;
     background-color: #164764;
 }
+#main {
+    width: 100%;
+    height: auto;
+    background: #164764;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image{
+    background-image: url(../images/img6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 200px;
+    position: relative;
+  }
+  .image::before{
+    content: '';
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 350px;
+    height: 200px;
+    margin-left: -2px;
+    background-image: url(../images/img6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scaleY(-1);
+    opacity: 0.2;
+    filter: url(#wavy);
+  }
+  .image::after{
+    content: '';
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 351px;
+    height: 200px;
+    background-image: linear-gradient(transparent, #16374a 70%);
+  }
 /********************************** Contact Section ************************************/
 .contactSection {
     transition: all 3s ease;

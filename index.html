@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="assets/js/custom.js"></script>
 </head>
+<svg>
+    <filter id="wavy">
+      <feTurbulence id="turbulence" type="turbulence" numOctaves="1" result="NOISE"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="NOISE" scale="5"/>
+      <animate xlink:href="#turbulence" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1"
+      values="0.01 0.02;0.1 0.2;0.01 0.02" repeatCount="indefinite"></animate>
+    </filter>
+</svg>
 <body onload="startpage()">
     <nav>
         <ul>
@@ -68,6 +76,7 @@
     </section>
     <section  id="contactpage" class="contactSection">
         <h1>Contact</h1>
+        <div class="image"></div>
 
     </section>
     <footer>
