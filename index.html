@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Gouliaveras Vasilios">
-    <title>Welcome To Vasilis Website !</title>
+    <title>They Call Me Bill</title>
 
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -16,12 +16,12 @@
 <body>
     <nav>
         <ul>
-            <li><button class="btn" onClick=homeAnim()><i class="fa fa-home" ></i> Home</button></li>
-            <li><button class="btn" onClick=aboutAnim()><i class="fa fa-male"></i> About</button></li>
-            <li><button class="btn"><i class="fa fa-comments"></i> Contact</button></li>
+            <li><button class="btn" onClick=homeBtn()><i class="fa fa-home" ></i> Home</button></li>
+            <li><button class="btn" onClick=aboutBtn()><i class="fa fa-male"></i> About</button></li>
+            <li><button class="btn" onclick=contactBtn()><i class="fa fa-comments"></i> Contact</button></li>
         </ul>
     </nav>
-    <section id="mainPage">
+    <section id="homeContainer">
         <div id="container" class="containerStart glass">
             <div id="card1" class="card1">
                 <div class="card1Front">
@@ -42,7 +42,7 @@
 
                 </div>
             </div>
-        </div>
+        
         <div id="card2" class="card2">
             <div class="card2Front">
                 <h1 class="translateZ">Card1 Frontside</h1>
@@ -63,6 +63,7 @@
             </div>
         </div>
     </div>
+    </div>
     <div id="aboutContainer" class="aboutContainerClear glass">
             <h1>About Page</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -75,7 +76,7 @@
     </section>
     <footer>
         <div class="footerText center">
-            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Vasilios Gouliaveras All Rights Reserved</p>
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Vasilios &reg</p>
         </div>
         <div class="icons">
             <a href="https://www.facebook.com" target="_blank"><img src="assets/images/facebook.gif" alt="facebook"></a>
