@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="assets/js/custom.js"></script>
 </head>
-<body>
+<body onload="startpage()">
     <nav>
         <ul>
             <li><button class="btn" onClick=homeBtn()><i class="fa fa-home" ></i> Home</button></li>
@@ -21,8 +21,8 @@
             <li><button class="btn" onclick=contactBtn()><i class="fa fa-comments"></i> Contact</button></li>
         </ul>
     </nav>
-    <section id="homeContainer">
-        <div id="container" class="containerStart glass">
+    <section class="homeSection">
+        <div id="container" class="containerStart">
             <div id="card1" class="card1">
                 <div class="card1Front">
                     <h1 class="translateZ">Card1 Frontside</h1>
@@ -63,8 +63,9 @@
             </div>
         </div>
     </div>
-    </div>
-    <div id="aboutContainer" class="aboutContainerClear glass">
+    </section>
+    <section class="aboutSection">
+        <div class="aboutContainer">
             <h1>About Page</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Alias autem, cumque cupiditate doloribus enim eveniet ipsum labore laboriosam
@@ -72,6 +73,10 @@
                 voluptates? Ea.
             </p>
         </div>
+
+    </section>
+    <section class="contactSection">
+        <h1>Contact</h1>
 
     </section>
     <footer>
