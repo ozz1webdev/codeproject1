@@ -8,27 +8,26 @@ function homeBtn() {
     var aboutpage = document.getElementById('aboutpage');
     var contactpage=document.getElementById('contactpage');
     
-    homepage.style.height = "80vh"
-    contactpage.style.height = "0vh"
-    aboutpage.style.height = "0vh"
+    contactpage.style.height = "0vh";
+    aboutpage.style.height = "0vh";
+    homepage.style.height = "80vh";
 }
 function aboutBtn(){
     var homepage = document.getElementById('homepage');
     var aboutpage = document.getElementById('aboutpage');
     var contactpage=document.getElementById('contactpage');
     
-    homepage.style.height = "0vh"
-    contactpage.style.height = "0vh"
-    aboutpage.style.height = "80vh"
-
+    homepage.style.height = "0vh";
+    contactpage.style.height = "0vh";
+    aboutpage.style.height = "80vh";
 }
 function contactBtn () {
     var homepage = document.getElementById('homepage');
     var aboutpage = document.getElementById('aboutpage');
     var contactpage=document.getElementById('contactpage');
     
-    homepage.style.height = "0vh"
-    contactpage.style.height = "80vh"
-    aboutpage.style.height = "0vh"
+    homepage.style.height = "0vh";
+    aboutpage.style.height = "0vh";
+    contactpage.style.height = "80vh";
     
 }
