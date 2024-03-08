@@ -31,3 +31,16 @@ function contactBtn () {
     contactpage.style.height = "80vh";
     
 }
+function submitBtn () {
+    var contactName = document.getElementById("contactName");
+    var contactMail = document.getElementById("contactMail");
+    var contactMsg = document.getElementById("contactMsg");
+    if (contactName.textContent !== "") { // && contactMail.textContent != "" && contactMsg.textContent != "") {
+        var win = document.getElementById("contactMsg").style.height = "300px";
+    }
+}
+function msgCloseBtn() {
+    var win = document.getElementById("contactMsg");
+    win.style.height = "0px";
+    console.log("click");
+}

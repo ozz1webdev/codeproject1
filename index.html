@@ -24,8 +24,9 @@
 <body onload="startpage()">
     <nav>
         <ul>
+            <li>Lakis</li>
             <li><button class="btn" onClick=homeBtn()><i class="fa fa-home" ></i> Home</button></li>
-            <li><button class="btn" onClick=aboutBtn()><i class="fa fa-male"></i> About</button></li>
+            <li><button class="btn" onClick=aboutBtn()><i class="fa fa-male"></i> Presentation</button></li>
             <li><button class="btn" onclick=contactBtn()><i class="fa fa-comments"></i> Contact</button></li>
         </ul>
     </nav>
@@ -96,22 +97,40 @@
                 </p>
             </div>
             <div class="slider">
-                <a href="assets/images/img1.webp" target="_blank"><span style="--i:1;"><img src="assets/images/img1.webp" alt=""></span></a>
-                <a href="assets/images/img2.jpeg" target="_blank"><span style="--i:2;"><img src="assets/images/img2.jpeg" alt=""></span></a>
-                <a href="assets/images/img3.jpg" target="_blank"><span style="--i:3;"><img src="assets/images/img3.jpg" alt=""></span></a>
-                <a href="assets/images/img4.jpg" target="_blank"><span style="--i:4;"><img src="assets/images/img4.jpg" alt=""></span></a>
-                <a href="assets/images/img5.avif" target="_blank"><span style="--i:5;"><img src="assets/images/img5.avif" alt=""></span></a>
-                <a href="assets/images/img6.jpg" target="_blank"><span style="--i:6;"><img src="assets/images/img6.jpg" alt=""></span></a>
-                <a href="assets/images/img7.avif" target="_blank"><span style="--i:7;"><img src="assets/images/img7.avif" alt=""></span></a>
-                <a href="assets/images/img8.avif" target="_blank"><span style="--i:8;"><img src="assets/images/img8.avif" alt=""></span></a>
+                <span style="--i:1;"><img src="assets/images/img1.webp" alt=""></span>
+                <span style="--i:2;"><img src="assets/images/img2.jpeg" alt=""></span>
+                <span style="--i:3;"><img src="assets/images/img3.jpg" alt=""></span>
+                <span style="--i:4;"><img src="assets/images/img4.jpg" alt=""></span>
+                <span style="--i:5;"><img src="assets/images/img5.avif" alt=""></span>
+                <span style="--i:6;"><img src="assets/images/img6.jpg" alt=""></span>
+                <span style="--i:7;"><img src="assets/images/img7.avif" alt=""></span>
+                <span style="--i:8;"><img src="assets/images/img8.avif" alt=""></span>
             </div>
         </div>
 
     </section>
     <section  id="contactpage" class="contactSection">
         <h1>Contact</h1>
-        <div class="image"></div>
-
+        <div id="contactimg" class="image"></div>
+        <div class="contactform">
+            <form name="contact" class="form">
+                <h2>CONTACT US</h2>
+                <p type="Name:"><input id="contactName" name="contact" placeholder="Write your name here.." required></input></p>
+                <p type="Email:"><input id="contactMail" name="contact" placeholder="Let us know how to contact you back.." required></input></p>
+                <p type="Message:"><input id="contactMesg" name="contact" placeholder="What would you like to tell us.." required></input></p>
+                <button onclick="submitBtn()">Send Message</button>
+                <div>
+                  <span class="fa fa-phone"></span>001 1023 567
+                  <span class="fa fa-envelope-o"></span> contact@company.com
+                </div>
+              </form>
+        </div>
+        <div id="contactMsg" class="contactmsg">
+            <h1>Thank you for getting in touch! We appreciate you contacting us</h1>
+            <div id="msgCloseBtn" class="msgCloseBtn" onclick="msgCloseBtn()">
+                <span>Close</span>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="footerText center">
@@ -122,7 +141,7 @@
             <a href="https://www.twitter.com" target="_blank"><img src="assets/images/twitter.gif" alt="twitter"></a>
             <a href="https://www.instagram.com" target="_blank"><img src="assets/images/instagram.gif" alt="instagram"></a>
         </div>
-
+        <script src="assets/js/custom.js"></script>
     </footer>
 </body>
 
