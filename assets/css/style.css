@@ -11,6 +11,7 @@ html {
 }
 body {
     height:80%;
+    color:silver;
 }
 
 nav {
@@ -56,6 +57,7 @@ svg {
 }
 /********************************** Main Section ************************************/
 .homeSection {
+    color:silver;
     transition:all 3s ease;
     font-family:eyesome;
     position:absolute;
@@ -236,7 +238,7 @@ svg {
     display:flex;
     overflow: hidden;
     background: linear-gradient(to right, #2c5364, #0f2027);
-    color:white;
+    color:silver;
     font-family:eyesome;
     gap:10px;
     flex-wrap: wrap;
@@ -353,23 +355,23 @@ svg {
     background-color: #bebed2;
     cursor: pointer;
 }
-  .image{
+.image{
     background-image: url(../images/img6.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 350px;
-    height: 200px;
+    width: 550px;
+    height: 400px;
     margin-top:0px;
     position: absolute;
-  }
-  .image::before{
+}
+.image::before{
     content: '';
     position: absolute;
     top: 105%;
     left: 0;
-    width: 350px;
-    height: 200px;
+    width: 550px;
+    height: 400px;
     margin-left: -2px;
     background-image: url(../images/img6.jpg);
     background-size: cover;
@@ -378,16 +380,16 @@ svg {
     transform: scaleY(-1);
     opacity: 0.2;
     filter: url(#wavy);
-  }
-  .image::after{
+}
+.image::after{
     content: '';
     position: absolute;
     top: 105%;
     left: 0;
-    width: 351px;
-    height: 200px;
+    width: 550px;
+    height: 400px;
     background-image: linear-gradient(transparent, #16374a 70%);
-  }
+}
 /********************************** footer ************************************/
 footer {
     width:100%;
