@@ -164,19 +164,22 @@ svg {
     display:flex;
     overflow: hidden;
     justify-content: center;
-    align-items: center;
     background: linear-gradient(to right, #2c5364, #0f2027);
+}
+.aboutContainer {
+    margin-top:10px;
 }
 .aboutText {
     font-family:eyesome;
     color:silver;
-    margin-top:0px;
+    top:0px;
 }
 .slider {
     position: relative;
     width: 200px;
     height: 200px;
     display:flex;
+    margin-top:100px;
     margin-left:auto;
     margin-right:auto;
     transform-style: preserve-3d;
@@ -236,10 +239,12 @@ svg {
     color:white;
     font-family:eyesome;
     gap:10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #contactimg {
     position:relative;
-    margin-top:200px;
+    margin-top:170px;
     margin-left:50px;
 }
 .contactform {
@@ -256,7 +261,7 @@ svg {
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
-    margin-top:35px;
+    margin-top:0px;
     margin-left:50px;
     padding:20px 30px;
     max-width:calc(100vw - 40px);
@@ -348,14 +353,6 @@ svg {
     background-color: #bebed2;
     cursor: pointer;
 }
-#main {
-    width: 100%;
-    height: auto;
-    background: #164764;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   .image{
     background-image: url(../images/img6.jpg);
     background-size: cover;
@@ -363,6 +360,7 @@ svg {
     background-repeat: no-repeat;
     width: 350px;
     height: 200px;
+    margin-top:0px;
     position: absolute;
   }
   .image::before{
