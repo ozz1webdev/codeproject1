@@ -69,6 +69,7 @@ svg {
     overflow: auto;
     /*background-color: #226e9b;*/
     background: linear-gradient(to right, #2c5364, #0f2027);
+    flex-wrap: wrap;
 }
 
 /***********************************Card ***************************/
