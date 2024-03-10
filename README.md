@@ -10,19 +10,13 @@
     - [Future Implementations](#future-implementations)
     - [Pages](#pages)
         - [Home page](#home-page)
-        - [Guide page](#guide-page)
-        - [Setup page](#setup-page)
+        - [Showcase page](#showcase)
         - [Contact page](#contact-page)
     - [Accessibility](#accessibility)
-      - [Smooth scroll-behavior](#smooth-scroll-behavior)
-      - [Quick access bar](#quick-access-bar)
     - [Multiscreen Support](#multiscreen-support)
         - [Mobile](#mobile)
         - [Tablet](#tablet)
 - [Technologies Used](#technologies-used)
-- [Deployment & Local Development](#deployment--local-development)
-  - [Deployment](#deployment)
-  - [Local Development](local-development)
 - [Testing](#testing)
   - [W3C Validator](#w3c-validator)
 - [Credits](#credits)
@@ -120,17 +114,12 @@ The complete web site is created in single page no need for scrolling.Scrolling 
 # Testing
 
 ## W3C Validator
-
+Gratulation! Es wurden keine Fehler gefunden.
 # Credits
-
-## Content
-
 ## Images
-
-* [Unsplash](https://unsplash.com/) - Images downloaded from.
-
-* [Jason Leung](https://unsplash.com/photos/black-wireless-headphones-on-black-surface-xR4JHzr69Og?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) - Image used on the home page.
+* [youtube chanels](https://www.youtube.com/@codingcirculate) - For the carousel 
+* [Google](https://www.google.com/) - Images downloaded from.
 
 ## Acknowledgments
 
-* Graeme Taylor - My Code Institute Mentor.
+* Jubril Akolade - My Code Institute Mentor.
