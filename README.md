@@ -116,17 +116,13 @@ The complete web site is created in single page no need for scrolling.Scrolling 
 Gratulation! Es wurden keine Fehler gefunden.
 # Credits
 ## Images
-<<<<<<< HEAD
+
 * [youtube chanels](https://www.youtube.com/@codingcirculate) - For the carousel and Cards Code
-=======
+
 * [youtube chanels](https://www.youtube.com/@codingcirculate) - For the carousel 
->>>>>>> 8f44c13a78e6cb67f1bdc09a1b0637217e099863
+
 * [Google](https://www.google.com/) - Images downloaded from.
 
 ## Acknowledgments
 
-<<<<<<< HEAD
 * Jubril Akolade - My Code Institute Mentor.
-=======
-* Jubril Akolade - My Code Institute Mentor.
->>>>>>> 8f44c13a78e6cb67f1bdc09a1b0637217e099863
