@@ -49,13 +49,13 @@ Live Preview : [Bill's Gallery](https://ozz1webdev.github.io/codeproject1/)
 
 ## Typography
 
-Used Font for H1 and p tags is Eyesome-Script
+Used Font for H1 tags is Eyesome-Script
 
 # Features
 
 ## General Features on Each page
 
-* The menu bar is fixed and it has 3 items.On mouse Hover the items change the background color and the width.
+* The menu bar is fixed and it has 5 items. Left is the logo, in the middle is the menu for site navigation and on the left is the login button.On mouse hover the menu items change the background color and the width on the login button the text spins 3d on Y axis. 
 
 ![menu](./assets/images/Readme-img/menu.jpg)
 
@@ -94,6 +94,12 @@ This page contain a Carousel Showcase all of the pictures
 ![Contact](./assets/images/Readme-img/contact.JPG)
 
 in this page is the contact form
+
+### Login
+
+![Login](./assets/images/Readme-img/login.jpg)
+
+The Login Form: Gates are closed and the login form is displayed for demostration the username and the password are guest/guest.
 
 ## Accessibility
 
