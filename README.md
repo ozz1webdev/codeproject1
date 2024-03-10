@@ -121,8 +121,26 @@ The complete web site is created in single page no need for scrolling.Scrolling 
 # Testing
 
 ## W3C Validator
-Gratulation! Es wurden keine Fehler gefunden.
-# Credits
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fozz1webdev.github.io%2Fcodeproject1%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fraw.githubusercontent.com%2Fozz1webdev%2Fcodeproject1%2Fmain%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://ozz1webdev.github.io/codeproject1/index.html
+
+## Credits
+
+### Content
+
+- The icons for the footer was taken from [Giphy](https://giphy.com/)
+
 ## Images
 
 * [youtube chanels](https://www.youtube.com/@codingcirculate) - For the carousel and Cards Code
