@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en-US">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="assets/js/custom.js"></script>
 </head>
+<body onload="startpage()">
 <svg>
     <filter id="wavy">
         <feTurbulence id="turbulence" type="turbulence" numOctaves="1" result="NOISE"></feTurbulence>
@@ -20,7 +21,6 @@
         values="0.01 0.02;0.1 0.2;0.01 0.02" repeatCount="indefinite"></animate>
     </filter>
 </svg>
-<body id="body" onload="startpage()">
     <nav>
         <ul>
             <li><button class="btn" onClick=homeBtn()><i></i> Home</button></li>
@@ -121,7 +121,7 @@
     <section id="aboutpage" class="aboutSection">
         <div class="aboutContainer">
             <div class="aboutText">
-                <h1>Presentation Page</h1>
+                <h1>Showcase Page</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Alias autem, cumque cupiditate doloribus enim eveniet ipsum labore laboriosam
                     omnis provident quam qui, quo similique suscipit temporibus veritatis voluptas,
@@ -147,15 +147,15 @@
         <div class="contactform">
             <form name="contact" class="form">
                 <h2>CONTACT US</h2>
-                <p type="Name:"><input id="contactName" name="contact" placeholder="Write your name here.." required></input></p>
-                <p type="Email:"><input id="contactMail" name="contact" placeholder="Let us know how to contact you back.." required></input></p>
-                <p type="Message:"><input id="contactMesg" name="contact" placeholder="What would you like to tell us.." required></input></p>
+                <p>Name:<input id="contactName" name="contact" placeholder="Write your name here.." required > </p>
+                <p>EMail<input id="contactMail" name="contact" placeholder="Let us know how to contact you back.." required ></p>
+                <p>Message<input id="contactMesg" name="contact" placeholder="What would you like to tell us.." required ></p>
                 <button onclick="submitBtn()">Send Message</button>
                 <div>
-                  <span class="fa fa-phone"></span>001 1023 567
-                  <span class="fa fa-envelope-o"></span> contact@company.com
+                    <span class="fa fa-phone"></span>001 1023 567
+                    <span class="fa fa-envelope-o"></span> contact@company.com
                 </div>
-              </form>
+            </form>
         </div>
         <div id="contactMsg" class="contactmsg">
             <h1>Thank you for getting in touch! We appreciate you contacting us</h1>
@@ -166,17 +166,17 @@
     </section>
     <footer>
         <div class="footerText center">
-            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Vasilios &reg</p>
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Vasilios &reg;</p>
         </div>
         <div class="icons">
             <a href="https://www.facebook.com" target="_blank"><img src="assets/images/facebook.gif" alt="facebook"></a>
             <a href="https://www.twitter.com" target="_blank"><img src="assets/images/twitter.gif" alt="twitter"></a>
             <a href="https://www.instagram.com" target="_blank"><img src="assets/images/instagram.gif" alt="instagram"></a>
         </div>
-        <script src="assets/js/custom.js" type="text/javascript"></script>
-        <script src="assets/js/jquery-3.7.1.min.js" type="text/javascript"></script>
-        <script src="assets/js/jquery.ripples-min.js" type="text/javascript"></script>
-        <script src="assets/js/myjs2.js" type="text/javascript"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <script src="assets/js/jquery.ripples-min.js"></script>
+        <script src="assets/js/myjs2.js"></script>
     </footer>
 </body>
 
