@@ -37,16 +37,19 @@ function submitBtn () {
     var contactMail = document.getElementById("contactMail");
     var contactMsg = document.getElementById("contactMsg");
     var win = document.getElementById("contactMsg");
-    alert
-    if (contactName.textContent == "Write your name here..") { // && contactMail.textContent != "" && contactMsg.textContent != "") {
-        win.style.height = "0px";
+    
+    if (contactName.value != "" && contactMail.value != "" && contactMsg.value != "") {
+        win.style.height = "300px";
+        win.style.width = "500px";
     }
     else {
-        win.style.height = "300px";
+        win.style.height = "0px";
+        win.style.width = "0px";
     }
 }
 function msgCloseBtn() {
     var win = document.getElementById("contactMsg");
     win.style.height = "0px";
+    //win.style.width = "0px";
     console.log("click");
 }
