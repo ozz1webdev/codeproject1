@@ -14,6 +14,7 @@
         - [Home page](#home-page)
         - [Showcase page](#showcase)
         - [Contact page](#contact-page)
+        - [Login page](#Login_page)
     - [Accessibility](#accessibility)
     - [Multiscreen Support](#multiscreen-support)
         - [Mobile](#mobile)
@@ -97,7 +98,7 @@ in this page is the contact form
 
 ### Login
 
-![Login](./assets/images/Readme-img/login.jpg)
+![Login_page](./assets/images/Readme-img/login.jpg)
 
 The Login Form: Gates are closed and the login form is displayed for demostration the username and the password are guest/guest.
 
