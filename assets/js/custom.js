@@ -100,4 +100,16 @@ function loginCancel() {
     loginForm.style.height = "0px";
 
 }
+function mainScrollfunc() {
+    var mainSection = document.getElementById('homepage');
+    var nav = document.getElementById('ulNav1');
+    var mainSectionHeight = mainSection.scrollTop;
 
+    if (mainSectionHeight > 250) {
+        nav.classList.add("navToLines");
+    }
+    if (mainSectionHeight < 250) {
+        nav.classList.remove("navToLines");
+        nav.classList.add("nav");
+    }
+};

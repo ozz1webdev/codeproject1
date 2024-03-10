@@ -25,25 +25,26 @@
     <nav>
         <span id="logo">Bill's Gallery</span>
         <ul>
-            <li><button class="btn" onClick=homeBtn()><i></i> Home</button></li>
+            <li id="ulNav1" ><button class="btn" onClick=homeBtn()><i></i> Home</button></li>
             <li><button class="btn" onClick=aboutBtn()><i></i> Showcase</button></li>
             <li><button class="btn" onclick=contactBtn()><i></i> Contact</button></li>
+            <li><button class="btn" onclick=onLogin()><i></i> Login</button></li>
         </ul>
-        <span id="loginBtn" onclick="onLogin()">Login</span>
+        
     </nav>
     <div id="doorLeft" class="loginDoorLeft"></div>
     <div id="loginForm" class="loginFormWin glass">
         <form class="loginForm" name="login" onsubmit="loginSubmit(); return false">
             <h2>Login</h2>
-            <p>Username :<input id="userName" name="login" placeholder="Enter Username here.." required > </p>
-            <p>Password :<input type="password" id="userPassword" name="login" placeholder="Enter Password here" required ></p>
+            <p>Username :<input id="userName" name="login" placeholder="Enter Username here.." > </p>
+            <p>Password :<input type="password" id="userPassword" name="login" placeholder="Enter Password here" ></p>
             <button onclick="loginSubmit()">Login</button>
             <button onClick="loginCancel()">Cancel</button>
         </form>
         <span>Username: guest Password: guest</span>
 </div>
     <div  id="doorRight" class="loginDoorRight"></div>
-    <section id ="homepage" class="homeSection">
+    <section id ="homepage" class="homeSection" >
         <div class="welcomeText">
             <h1>Welcome to Bill's Gallery</h1>
             <p>Bills Gallery is an immersive online platform showcasing a captivating array of art, from intricate drawings to breathtaking sculptures, curated monthly to inspire and engage art enthusiasts worldwide.</p>

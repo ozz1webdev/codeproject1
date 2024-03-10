@@ -30,6 +30,7 @@ nav  ul {
     gap:30px;
 }
 nav li {
+    transition: all 3s easy;
     color:white;
     -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.4));
 }
@@ -54,6 +55,11 @@ nav li {
     background-color: #164764;
     padding-left:30px;
     padding-right:30px;
+}
+.navToLines {
+    transition:all 3s ease;
+    position:fixed;
+    right:0px;
 }
 svg {
     position: absolute;
@@ -469,8 +475,14 @@ footer img:hover {
 /************************************Responsive *************************************/
 @media screen and (max-width: 480px) {
     #loginBtn {
-        margin-top:50px;
-        margin-left:10px;
+        position: fixed;
+        margin-top:0px;
+        margin-right:0px;
+    }
+    nav ul {
+        position:fixed;
+        left:0px;
+        gap:0px;
     }
     #loginForm {
         display:flex;
@@ -485,6 +497,7 @@ footer img:hover {
     
     #logo {
         position: relative;
+        top:0px;
     }
 
     .homeSection {
