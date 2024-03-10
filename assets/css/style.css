@@ -34,7 +34,10 @@ font-family:eyesome;
 color:white;
     -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.4));
 }
-
+#logo {
+    position:absolute;
+    left:15px;
+}
 .btn {
     transition: 0.3s;
     background-color:rgba(0, 0, 0, 0);
