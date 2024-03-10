@@ -19,8 +19,9 @@
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   - [W3C Validator](#w3c-validator)
+- [Deployment](#deployment)
 - [Credits](#credits)
-    - [Youtube Channels](#youtube-channels)
+    - [Content](#content)
     - [Images](#images)
     - [Acknowledgments](#acknowledgments)
 
