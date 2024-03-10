@@ -36,6 +36,8 @@ color:white;
 }
 #logo {
     position:absolute;
+    font-family: eyesome;
+    top:15px;
     left:15px;
 }
 .btn {
