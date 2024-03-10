@@ -79,8 +79,9 @@ svg {
     flex-wrap: wrap;
 }
 @media screen and (max-width: 480px) {
+    
     #logo {
-        display:none;
+        position: relative;
     }
     .homeSection {
         flex-direction: row;
@@ -88,6 +89,7 @@ svg {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+
     }
     .welcomeText {
         overflow: auto;
