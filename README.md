@@ -1,6 +1,6 @@
 # Bill's Gallery
 
-![#f03c15](Warning: this website contains heavy animations) `#f03c15`
+$${\color{red}Warning: this website contains heavy animations }$$
 
 # Contents
 
