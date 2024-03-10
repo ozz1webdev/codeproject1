@@ -1,6 +1,6 @@
 # Bill's Gallery
 
-#[#f03c15]Warning: this website contains heavy animations `#f03c15`
+![#f03c15](Warning: this website contains heavy animations) `#f03c15`
 
 # Contents
 
