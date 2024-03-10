@@ -1,3 +1,5 @@
+# Bill's Gallery
+
 # Contents
 
 - [About Me](#about-me)
@@ -144,9 +146,7 @@ The live link can be found here - https://ozz1webdev.github.io/codeproject1/inde
 
 ## Images
 
-* [youtube chanels](https://www.youtube.com/@codingcirculate) - For the carousel and Cards Code
-
-* [youtube chanels](https://www.youtube.com/@codingcirculate) - For the carousel 
+* [youtube chanels](https://www.youtube.com/@codingcirculate) - For the carousel and Cards Code idea
 
 * [Google](https://www.google.com/) - Images downloaded from.
 
