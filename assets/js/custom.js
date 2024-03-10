@@ -87,7 +87,7 @@ function loginSubmit() {
         loginForm.style.height = "0px";
     }
     else {
-        alert("Wrong Username or Password Plz Enter Username: guest Password: guest for demostration");
+        //alert("Wrong Username or Password Plz Enter Username: guest Password: guest for demostration");
     }
 }
 function loginCancel() {
@@ -101,15 +101,5 @@ function loginCancel() {
 
 }
 function mainScrollfunc() {
-    var mainSection = document.getElementById('homepage');
-    var nav = document.getElementById('ulNav1');
-    var mainSectionHeight = mainSection.scrollTop;
-
-    if (mainSectionHeight > 250) {
-        nav.classList.add("navToLines");
-    }
-    if (mainSectionHeight < 250) {
-        nav.classList.remove("navToLines");
-        nav.classList.add("nav");
-    }
+    
 };
