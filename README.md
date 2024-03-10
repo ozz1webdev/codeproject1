@@ -1,6 +1,6 @@
 # Bill's Gallery
 
-$${\color{red}Warning: this website contains heavy animations }$$
+$${\color{red}Warning:\space this\space website\space contains\space heavy\space animations\space }$$
 
 # Contents
 
