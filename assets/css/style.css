@@ -84,6 +84,9 @@ svg {
     width:300px;
     height:auto;
 }
+.welcomeText p {
+    font-family: sans-serif;
+}
 /***********************************Card ***************************/
 .cardcontainer {
 	position:relative;
@@ -285,14 +288,14 @@ svg {
 }
 #contactimg {
     position:relative;
-    margin-top:170px;
+    margin-top:50px;
     margin-left:50px;
 }
 .contactform {
     position:relative;
     width:450px;
     height:500px;
-    top:150px;
+    top:50px;
 
 }
 /**************************************************/
@@ -472,7 +475,7 @@ footer img:hover {
     }
     .homeSection {
         flex-direction: row;
-        gap:150px;
+        gap:0px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -497,6 +500,13 @@ footer img:hover {
     }
     .contactform {
         top:10px;
+    }
+    #card1container,
+    #card2container,
+    #card3container,
+    #card4container,
+    #card5container {
+        margin-top:300;
     }
 }
 @media screen and (max-width: 768px) {
