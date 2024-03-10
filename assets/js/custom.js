@@ -35,7 +35,7 @@ function contactBtn () {
 function submitBtn () {
     var contactName = document.getElementById("contactName");
     var contactMail = document.getElementById("contactMail");
-    var contactMsg = document.getElementById("contactMsg");
+    var contactMsg = document.getElementById("contactMesg");
     var win = document.getElementById("contactMsg");
     
     if (contactName.value != "" && contactMail.value != "" && contactMsg.value != "") {
@@ -49,7 +49,54 @@ function submitBtn () {
 }
 function msgCloseBtn() {
     var win = document.getElementById("contactMsg");
+    var contactName = document.getElementById("contactName");
+    var contactMail = document.getElementById("contactMail");
+    var contactMsg = document.getElementById("contactMesg");
+
     win.style.height = "0px";
     //win.style.width = "0px";
-    console.log("click");
+
+    contactName.value="";
+    contactMail.value = "";
+    contactMsg.value = "";
+}
+function onLogin() {
+    var doorLeft = document.getElementById('doorLeft');
+    var doorRight = document.getElementById('doorRight');
+    
+    doorLeft.style.width = "50%";
+    doorRight.style.width = "50%";
+
+    setTimeout(loginForm,5000);
+
+}
+function loginForm(){
+    var loginForm = document.getElementById('loginForm');
+    loginForm.style.height = "300px";
+}
+function loginSubmit() {
+    var doorLeft = document.getElementById('doorLeft');
+    var doorRight = document.getElementById('doorRight');
+    var loginForm = document.getElementById('loginForm');
+    var user = document.getElementById('userName');
+    var pass = document.getElementById('userPassword');
+
+    if (user.value == "guest" && pass.value == "guest") {
+        doorLeft.style.width = "0px";
+        doorRight.style.width = "0px";
+        loginForm.style.height = "0px";
+    }
+    else {
+        alert("Wrong Username or Password Plz Enter Username: guest Password: guest for demostration");
+    }
+}
+function loginCancel() {
+    var doorLeft = document.getElementById('doorLeft');
+    var doorRight = document.getElementById('doorRight');
+    var loginForm = document.getElementById('loginForm');
+    
+    doorLeft.style.width = "0px";
+    doorRight.style.width = "0px";
+    loginForm.style.height = "0px";
+
 }

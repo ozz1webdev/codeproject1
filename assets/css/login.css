@@ -1,0 +1,64 @@
+#loginBtn {
+    position:absolute;
+    right:100px;
+    top:15px;
+    color:white;
+    font-size:20px;
+    cursor: pointer;
+    font-family:sans-serif;
+    -webkit-box-reflect: below 15px linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.4));
+
+}
+#loginBtn:hover {
+    transition:all 5s linear;
+    background-color: transparent;
+    transform-style: preserve-3d;
+    animation: rotate 5s linear infinite; 
+}
+@keyframes rotate{
+    to{ transform: rotateY(360deg); }
+}
+.glass {
+    background: rgba(81, 139, 177, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    border: none;
+}
+.loginDoorLeft {
+    transition:all 5s ease;
+    position:fixed;
+    height: 100%;
+    width: 0px;
+    top:0px;
+    left:0px;
+    background-image:url(../images/Wood_Texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:5;
+}
+.loginDoorRight {
+    transition:all 5s ease;
+    position:fixed;
+    height: 100%;
+    width: 0px;
+    top:0px;
+    right: 0px;
+    background-image:url(../images/Wood_Texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:5;
+}
+.loginFormWin {
+    position: fixed;
+    z-index:6;
+    left:35%;
+    top:35%;
+    width:500px;
+    height:0px;
+    overflow: hidden;
+}
+.loginForm {
+    color:white;
+}

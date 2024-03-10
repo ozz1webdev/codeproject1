@@ -10,6 +10,7 @@
     <title>Bill's Art Gallery</title>
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/login.css" type="text/css">
     <script src="assets/js/custom.js"></script>
 </head>
 <body onload="startpage()">
@@ -28,7 +29,20 @@
             <li><button class="btn" onClick=aboutBtn()><i></i> Showcase</button></li>
             <li><button class="btn" onclick=contactBtn()><i></i> Contact</button></li>
         </ul>
+        <span id="loginBtn" onclick="onLogin()">Login</span>
     </nav>
+    <div id="doorLeft" class="loginDoorLeft"></div>
+    <div id="loginForm" class="loginFormWin glass">
+        <form class="loginForm" name="login" onsubmit="loginSubmit(); return false">
+            <h2>Login</h2>
+            <p>Username :<input id="userName" name="login" placeholder="Enter Username here.." required > </p>
+            <p>Password :<input id="userPassword" name="login" placeholder="Enter Password here" required ></p>
+            <button onclick="loginSubmit()">Login</button>
+            <button onClick="loginCancel()">Cancel</button>
+        </form>
+        <span>Username: guest Password: guest</span>
+</div>
+    <div  id="doorRight" class="loginDoorRight"></div>
     <section id ="homepage" class="homeSection">
         <div class="welcomeText">
             <h1>Welcome to Bill's Gallery</h1>
@@ -143,9 +157,9 @@
         <div class="contactform">
             <form name="contact" class="form" onsubmit="submitBtn(); return false">
                 <h2>CONTACT US</h2>
-                <p>Name:<input id="contactName" name="contact" placeholder="Write your name here.." required > </p>
-                <p>EMail<input id="contactMail" name="contact" placeholder="Let us know how to contact you back.." required ></p>
-                <p>Message<input id="contactMesg" name="contact" placeholder="What would you like to tell us.." required ></p>
+                <p>Name :<input id="contactName" name="contact" placeholder="Write your name here.." required > </p>
+                <p>EMail :<input id="contactMail" name="contact" placeholder="Let us know how to contact you back.." required ></p>
+                <p>Message :<input id="contactMesg" name="contact" placeholder="What would you like to tell us.." required ></p>
                 <button onclick="submitBtn()">Send Message</button>
                 <div>
                     <span class="fa fa-phone"></span>001 1023 567
