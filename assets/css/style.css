@@ -78,40 +78,7 @@ svg {
     background: linear-gradient(to right, #2c5364, #0f2027);
     flex-wrap: wrap;
 }
-@media screen and (max-width: 480px) {
-    
-    #logo {
-        position: relative;
-    }
-    .homeSection {
-        flex-direction: row;
-        gap:150px;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
 
-    }
-    .welcomeText {
-        overflow: auto;
-    }
-}
-@media screen and (max-width: 768px) {
-    
-    .homeSection {
-        flex-direction: row;
-        gap:150px;
-        flex-wrap: wrap;
-    }
-    .welcomeText { 
-        overflow: auto;
-    }
-    .cardcontainer {
-        position:relative;
-        width: 150px;
-        height:220px;
-        -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.4));
-    }
-}
 .welcomeText {
     margin-left:50px;
     width:300px;
@@ -140,7 +107,7 @@ svg {
 	width:100%;
 	height:100%;
 	backface-visibility: hidden;
-	color:#333;
+	color: white;
 	transform-style:preserve-3d;
 }	
 .theBack {
@@ -496,4 +463,64 @@ footer img:hover {
 .footerText {
     margin-left:10px;
     margin-right:auto;
+}
+/************************************Responsive *************************************/
+@media screen and (max-width: 480px) {
+    
+    #logo {
+        position: relative;
+    }
+    .homeSection {
+        flex-direction: row;
+        gap:150px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .welcomeText {
+        overflow: auto;
+    }
+    .contactSection {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        overflow: auto;
+    }
+    #contactimg {
+        position: relative;
+        top:0px;
+        left:0px;
+    }
+    .image, .image::after, .image:before {
+        position: relative;
+        left:0px;
+        top:0px;
+    }
+
+    .contactform {
+        position: relative;
+        left:0px;
+        top:0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+    .homeSection {
+        flex-direction: row;
+        gap:100px;
+        flex-wrap: wrap;
+    }
+    .homeSection p {
+        font-family: sans-serif;
+    }
+    .welcomeText { 
+        overflow: auto;
+    }
+    .cardcontainer {
+        position:relative;
+        width: 250px;
+        height:320px;
+        -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.4));
+    }
 }
