@@ -46,7 +46,7 @@ Live Preview : [Bill's Gallery](https://ozz1webdev.github.io/codeproject1/)
 
 ## Typography
 
-Used Font for H1 is Eyesome-Script
+Used Font for H1 and p tags is Eyesome-Script
 
 # Features
 
