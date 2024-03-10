@@ -53,7 +53,9 @@ Used Font for H1 and p tags is Eyesome-Script
 ## General Features on Each page
 
 * The menu bar is fixed and it has 3 items.On mouse Hover the items change the background color and the width.
+
 ![menu](./assets/images/Readme-img/menu.jpg)
+
 * On touch screens will be only the click action without the animation.
 
 * The Home page have 5 cards with the top 5 Pictures.
@@ -63,7 +65,9 @@ Used Font for H1 and p tags is Eyesome-Script
 * The Contact page have a picture with water effect on mouse over and the Contact form.
 
 * The footer contains 3 linked icons for facebook twitter(X) and instagram
+
 ![Footer](./assets/images/Readme-img/footer.jpg)
+
 ## Future Implementations
 
 Login for the Artist and the users
