@@ -493,15 +493,10 @@ footer img:hover {
         left:0px;
     }
     .image, .image::after, .image:before {
-        position: relative;
-        left:0px;
-        top:0px;
+        display:none;
     }
-
     .contactform {
-        position: relative;
-        left:0px;
-        top:0px;
+        top:10px;
     }
 }
 @media screen and (max-width: 768px) {
