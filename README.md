@@ -32,7 +32,11 @@ Student at Code Institute.
 
 # User Experience
 
-Bills Gallery is a website where art is showcased. Art are collected and showcased, from Drawings, Sculptures and other kind of Art.
+Bill's Gallery is a website where art is showcased. Art are collected and showcased, from Drawings, Sculptures and other kind of Art.
+Artist all over the world can rent as well the website to showcase their work.
+All images at the website are examples from random google search and are free to use credits to the owner's.
+
+Live Preview : [Bill's Gallery](https://ozz1webdev.github.io/codeproject1/)
 
 # Design
 
