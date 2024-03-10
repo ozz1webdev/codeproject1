@@ -472,6 +472,7 @@ footer img:hover {
     #logo {
         position: relative;
     }
+    
     .homeSection {
         flex-direction: row;
         gap:0px;
