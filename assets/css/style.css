@@ -66,16 +66,49 @@ svg {
     height:0vh;
     margin-top:100px;
     display:flex;
-    gap:20px;
+    flex-direction: row;
+    gap:10px;
     overflow: auto;
     /*background-color: #226e9b;*/
     background: linear-gradient(to right, #2c5364, #0f2027);
     flex-wrap: wrap;
 }
+@media screen and (max-width: 480px) {
+    #logo {
+        display:none;
+    }
+    .homeSection {
+        flex-direction: row;
+        gap:150px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .welcomeText {
+        overflow: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+    .homeSection {
+        flex-direction: row;
+        gap:150px;
+        flex-wrap: wrap;
+    }
+    .welcomeText { 
+        overflow: auto;
+    }
+    .cardcontainer {
+        position:relative;
+        width: 150px;
+        height:220px;
+        -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.4));
+    }
+}
 .welcomeText {
     margin-left:50px;
     width:300px;
-    height:100px;
+    height:auto;
 }
 /***********************************Card ***************************/
 .cardcontainer {
