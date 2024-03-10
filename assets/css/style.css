@@ -528,4 +528,10 @@ footer img:hover {
         height:320px;
         -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent 20%, rgba(0,0,0,0.4));
     }
+    .image, .image::after, .image:before {
+        display:none;
+    }
+    .contactform {
+        top:10px;
+    }
 }
