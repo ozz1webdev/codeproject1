@@ -137,7 +137,7 @@ The complete web site is created in single page no need for scrolling.Scrolling 
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fozz1webdev.github.io%2Fcodeproject1%2F)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fraw.githubusercontent.com%2Fozz1webdev%2Fcodeproject1%2Fmain%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-- Lighthouse Performance [Lighthouse](./assets/images/Readme-img/lighthouse.jpg) 
+- Lighthouse Performance ![Lighthouse](./assets/images/Readme-img/lighthouse.jpg) 
 
 ## Deployment
 
