@@ -200,7 +200,7 @@ svg {
     background-repeat: no-repeat;
 
 }
-/********************************** About Section ************************************/
+/********************************** About/Showcase Section ************************************/
 .aboutSection {
     transition: all 3s ease;
     position:absolute;
@@ -303,7 +303,7 @@ svg {
     top:50px;
 
 }
-/**************************************************/
+/********************Contact Form******************************/
 .form {
     width:340px;
     height:440px;
@@ -377,7 +377,7 @@ svg {
 .form span {
     margin:0 5px 0 15px
 }
-/****************************************************/
+/*********************End Of Contact Form*******************************/
 .contactmsg {
     transition: all 2s ease;
     position:absolute;
