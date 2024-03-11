@@ -130,6 +130,8 @@ The complete web site is created in single page no need for scrolling.Scrolling 
 
 * [W3X Validator](https://validator.w3.org/) - For testing html/css code
 
+* [Lighthouse] - For Performance Loading Testing inside Chrome Browser
+
 # Testing
 
 ## W3C Validator and Lighthouse
