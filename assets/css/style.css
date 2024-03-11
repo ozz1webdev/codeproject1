@@ -155,7 +155,7 @@ svg {
     top:0px;
     width:100%;
     height:100%;
-	background-image: url('../images/img10.jpg');
+	background-image: url('../images/img1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -165,7 +165,7 @@ svg {
     top:0px;
     width:100%;
     height:100%;
-	background-image: url('../images/img4.jpg');
+	background-image: url('../images/img2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -175,7 +175,7 @@ svg {
     top:0px;
     width:100%;
     height:100%;
-	background-image: url('../images/img9.jpg');
+	background-image: url('../images/img3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -185,7 +185,7 @@ svg {
     top:0px;
     width:100%;
     height:100%;
-	background-image: url('../images/img6.jpg');
+	background-image: url('../images/img4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -195,7 +195,7 @@ svg {
     top:0px;
     width:100%;
     height:100%;
-	background-image: url('../images/img2.jpeg');
+	background-image: url('../images/img5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -222,6 +222,7 @@ svg {
     color:silver;
     top:0px;
 }
+/********************************** Slider ************************************/
 .slider {
     position: relative;
     width: 200px;
@@ -403,7 +404,7 @@ svg {
     cursor: pointer;
 }
 .image{
-    background-image: url(../images/img6.jpg);
+    background-image: url(../images/img4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -420,7 +421,7 @@ svg {
     width: 550px;
     height: 400px;
     margin-left: -2px;
-    background-image: url(../images/img6.jpg);
+    background-image: url(../images/img4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
